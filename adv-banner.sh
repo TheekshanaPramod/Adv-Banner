@@ -4,23 +4,23 @@ clear
 
 dpkg -s figlet
 echo $?
-[ "$?" -eq 1 ] && pkg install figlet -y || echo -e '\e[1;32m'"required package figlet allready installed..."
+[ "$?" -eq 1 ] && pkg install figlet -y || echo -e '\e[1;32m'"required package figlet allready installed..."'\e[1;39m'
 sleep 1
 dpkg -s cowsay
 echo $?
-[ "$?" -eq 1 ] && pkg install cowsay -y || echo -e '\e[1;32m'"required package cowsay allready installed..."
+[ "$?" -eq 1 ] && pkg install cowsay -y || echo -e '\e[1;32m'"required package cowsay allready installed..."'\e[1;39m'
 sleep 1
 dpkg -s ruby
 echo $?
-[ "$?" -eq 1 ] && pkg install ruby -y || echo -e '\e[1;32m'"required package ruby allready installed..."
+[ "$?" -eq 1 ] && pkg install ruby -y || echo -e '\e[1;32m'"required package ruby allready installed..."'\e[1;39m'
 sleep 1
 dpkg -s lolcat
 echo $?
-[ "$?" -eq 1 ] && pkg install lolcat -y || echo -e '\e[1;32m'"required package lolcat allready installed..."
+[ "$?" -eq 1 ] && pkg install lolcat -y || echo -e '\e[1;32m'"required package lolcat allready installed..."'\e[1;39m'
 sleep 1
 dpkg -s toilet
 echo $?
-[ "$?" -eq 1 ] && pkg install toilet -y || echo -e '\e[1;32m'"required package toilet allready installed..."
+[ "$?" -eq 1 ] && pkg install toilet -y || echo -e '\e[1;32m'"required package toilet allready installed..."'\e[1;39m'
 sleep 1
 
 clear
@@ -32,13 +32,14 @@ echo -e '\e[1;31m'"██╔══██║██║  ██║╚██╗ █�
 echo -e '\e[1;31m'"██║  ██║██████╔╝ ╚████╔╝ "
 echo -e '\e[1;31m'"╚═╝  ╚═╝╚═════╝   ╚═══╝  "
 echo
-echo -e '\e[1;37m'"██████╗  █████╗ ███╗   ██╗███╗   ██╗███████╗██████╗ "
-echo -e '\e[1;37m'"██╔══██╗██╔══██╗████╗  ██║████╗  ██║██╔════╝██╔══██╗"
-echo -e '\e[1;37m'"██████╔╝███████║██╔██╗ ██║██╔██╗ ██║█████╗  ██████╔╝"
-echo -e '\e[1;37m'"██╔══██╗██╔══██║██║╚██╗██║██║╚██╗██║██╔══╝  ██╔══██╗"
-echo -e '\e[1;37m'"██████╔╝██║  ██║██║ ╚████║██║ ╚████║███████╗██║  ██║"
-echo -e '\e[1;37m'"╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝"
+echo -e '\e[1;39m'"██████╗  █████╗ ███╗   ██╗███╗   ██╗███████╗██████╗ "
+echo -e '\e[1;39m'"██╔══██╗██╔══██╗████╗  ██║████╗  ██║██╔════╝██╔══██╗"
+echo -e '\e[1;39m'"██████╔╝███████║██╔██╗ ██║██╔██╗ ██║█████╗  ██████╔╝"
+echo -e '\e[1;39m'"██╔══██╗██╔══██║██║╚██╗██║██║╚██╗██║██╔══╝  ██╔══██╗"
+echo -e '\e[1;39m'"██████╔╝██║  ██║██║ ╚████║██║ ╚████║███████╗██║  ██║"
+echo -e '\e[1;39m'"╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝"
 echo
+echo -e '\e[44m''\e[1;39m'"            http://github.com/PRAMOD-max-ux           "'\e[49m'
 echo -e '\e[1;34m'"               [+] CODED BY DEVIL"
 echo
 echo -e '\e[1;32m'"         [1]EvilEye Banner     (normal)"
@@ -51,10 +52,10 @@ read a
 echo
 if [ "$a" -eq 1 ]
 then
-    echo -e '\e[1;33m'"          What is your banner name: "'\e[1;37m'
+    echo -e '\e[1;33m'"          What is your banner name: "'\e[1;39m'
     read c
     echo
-    echo -e '\e[1;33m'"          What is your cowsay name: "'\e[1;37m'
+    echo -e '\e[1;33m'"          What is your cowsay name: "'\e[1;39m'
     read b
     echo
 
@@ -75,10 +76,10 @@ then
 
 elif [ "$a" -eq 2 ]
 then
-    echo -e '\e[1;33m'"          What is your banner name: "'\e[1;37m'
+    echo -e '\e[1;33m'"          What is your banner name: "'\e[1;39m'
     read c
     echo
-    echo -e '\e[1;33m'"          What is your cowsay name: "'\e[1;37m'
+    echo -e '\e[1;33m'"          What is your cowsay name: "'\e[1;39m'
     read b
     echo
 
