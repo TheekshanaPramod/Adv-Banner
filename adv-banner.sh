@@ -1,4 +1,4 @@
-#coded by Theekshana Pramkd
+#coded by Theekshana Pramod
 #DEVIL
 clear
 
