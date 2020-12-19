@@ -4,23 +4,23 @@ clear
 
 dpkg -s figlet
 echo $?
-[ "$?" -eq 1 ] && pkg install figlet -y || echo -e '\e[1;32m'"required package figlet allready installed..."'\e[1;39m'
+[ "$?" -ne 1 ] && pkg install figlet -y || echo -e '\e[1;32m'"required package figlet allready installed..."'\e[1;39m'
 sleep 1
 dpkg -s cowsay
 echo $?
-[ "$?" -eq 1 ] && pkg install cowsay -y || echo -e '\e[1;32m'"required package cowsay allready installed..."'\e[1;39m'
+[ "$?" -ne 1 ] && pkg install cowsay -y || echo -e '\e[1;32m'"required package cowsay allready installed..."'\e[1;39m'
 sleep 1
 dpkg -s ruby
 echo $?
-[ "$?" -eq 1 ] && pkg install ruby -y || echo -e '\e[1;32m'"required package ruby allready installed..."'\e[1;39m'
+[ "$?" -ne 1 ] && pkg install ruby -y || echo -e '\e[1;32m'"required package ruby allready installed..."'\e[1;39m'
 sleep 1
 dpkg -s lolcat
 echo $?
-[ "$?" -eq 1 ] && pkg install lolcat -y || echo -e '\e[1;32m'"required package lolcat allready installed..."'\e[1;39m'
+[ "$?" -ne 1 ] && pkg install lolcat -y || echo -e '\e[1;32m'"required package lolcat allready installed..."'\e[1;39m'
 sleep 1
 dpkg -s toilet
 echo $?
-[ "$?" -eq 1 ] && pkg install toilet -y || echo -e '\e[1;32m'"required package toilet allready installed..."'\e[1;39m'
+[ "$?" -ne 1 ] && pkg install toilet -y || echo -e '\e[1;32m'"required package toilet allready installed..."'\e[1;39m'
 sleep 1
 
 clear
